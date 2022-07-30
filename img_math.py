@@ -187,7 +187,7 @@ def img_color(card_imgs):
         try:
             card_img_hsv = cv2.cvtColor(card_img, cv2.COLOR_BGR2HSV)
         except:
-            print("矫正矩形出错, 转换失败")# 可能原因:上面矫正矩形出错
+            print("矫正矩形出错, 转换失败") # 可能原因:上面矫正矩形出错
         
         if card_img_hsv is None:
             continue
